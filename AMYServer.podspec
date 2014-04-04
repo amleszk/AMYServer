@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.compiler_flags = '-DKIF_XCTEST'
   s.framework = 'XCTest'
-  s.dependency 'KIF', :git => 'git://github.com/kif-framework/KIF.git', :commit => '0295bb8fc84615b5d461da53f5a818a63e20bbaf'
+  s.dependency 'KIF', '~> 2.0'
   s.dependency 'GRMustache', '~> 6.7'
 end
