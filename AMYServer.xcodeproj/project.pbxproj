@@ -34,7 +34,6 @@
 		EB971412179657410005E31E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB971411179657410005E31E /* Default-568h@2x.png */; };
 		EB971415179657410005E31E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB971413179657410005E31E /* MainStoryboard.storyboard */; };
 		EB971418179657410005E31E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971417179657410005E31E /* ViewController.m */; };
-		EB971423179657770005E31E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB971422179657770005E31E /* SenTestingKit.framework */; };
 		EB971424179657770005E31E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9713FC179657410005E31E /* UIKit.framework */; };
 		EB971425179657770005E31E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9713E917961CD20005E31E /* Foundation.framework */; };
 		EB97142B179657770005E31E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB971429179657770005E31E /* InfoPlist.strings */; };
@@ -46,10 +45,28 @@
 		EB9714411796706D0005E31E /* _AMYURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971439179660B10005E31E /* _AMYURLProtocol.m */; };
 		EB971444179BAD210005E31E /* ExampleServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971443179BAD210005E31E /* ExampleServer.m */; };
 		EBAE488417A46C680005EE19 /* successful-login.tail in Resources */ = {isa = PBXBuildFile; fileRef = EBAE488317A46C680005EE19 /* successful-login.tail */; };
+		F3EF4B5118EF10C800F0793F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EF4B5018EF10C800F0793F /* XCTest.framework */; };
+		F3EF4B5718EF10F800F0793F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EF4B5018EF10C800F0793F /* XCTest.framework */; };
+		F3EF4B5818EF10F800F0793F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9713E917961CD20005E31E /* Foundation.framework */; };
+		F3EF4B5918EF10F800F0793F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9713FC179657410005E31E /* UIKit.framework */; };
+		F3EF4B5F18EF10F800F0793F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3EF4B5D18EF10F800F0793F /* InfoPlist.strings */; };
+		F3EF4B6818EF111400F0793F /* ExampleServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971443179BAD210005E31E /* ExampleServer.m */; };
+		F3EF4B6918EF111400F0793F /* AMYServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB97143C17966E740005E31E /* AMYServerTests.m */; };
+		F3EF4B6A18EF111400F0793F /* AMYMocktailResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23AA7217AB61F1002B6399 /* AMYMocktailResponseTests.m */; };
+		F3EF4B6C18EF112000F0793F /* AMYRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB97143617965CC70005E31E /* AMYRequest.m */; };
+		F3EF4B6D18EF112000F0793F /* _AMYURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = EB971439179660B10005E31E /* _AMYURLProtocol.m */; };
+		F3EF4B6E18EF112000F0793F /* _AMYMocktailResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EB283E3A17A6317000883DEC /* _AMYMocktailResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		EB971433179658250005E31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9713DE17961CD20005E31E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9713FA179657410005E31E;
+			remoteInfo = "Test Host";
+		};
+		F3EF4B6318EF10F800F0793F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EB9713DE17961CD20005E31E /* Project object */;
 			proxyType = 1;
@@ -120,6 +137,11 @@
 		EB971442179BAD210005E31E /* ExampleServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleServer.h; sourceTree = "<group>"; };
 		EB971443179BAD210005E31E /* ExampleServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleServer.m; sourceTree = "<group>"; };
 		EBAE488317A46C680005EE19 /* successful-login.tail */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "successful-login.tail"; sourceTree = "<group>"; };
+		F3EF4B5018EF10C800F0793F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F3EF4B5618EF10F800F0793F /* AMYServerXCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMYServerXCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EF4B5C18EF10F800F0793F /* AMYServerXCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMYServerXCTests-Info.plist"; sourceTree = "<group>"; };
+		F3EF4B5E18EF10F800F0793F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3EF4B6218EF10F800F0793F /* AMYServerXCTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMYServerXCTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,10 +168,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB971423179657770005E31E /* SenTestingKit.framework in Frameworks */,
+				F3EF4B5118EF10C800F0793F /* XCTest.framework in Frameworks */,
 				EB971424179657770005E31E /* UIKit.framework in Frameworks */,
 				EB971425179657770005E31E /* Foundation.framework in Frameworks */,
 				D8941B57AA6B462F808362B6 /* libPods-AMYServer Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EF4B5318EF10F800F0793F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EF4B5718EF10F800F0793F /* XCTest.framework in Frameworks */,
+				F3EF4B5918EF10F800F0793F /* UIKit.framework in Frameworks */,
+				F3EF4B5818EF10F800F0793F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +194,7 @@
 				EB9713EB17961CD20005E31E /* AMYServer */,
 				EB971401179657410005E31E /* Test Host */,
 				EB971426179657770005E31E /* AMYServer Tests */,
+				F3EF4B5A18EF10F800F0793F /* AMYServerXCTests */,
 				EB9713E817961CD20005E31E /* Frameworks */,
 				EB9713E717961CD20005E31E /* Products */,
 				660DAD8CDF4041B6ADB992C7 /* Pods.xcconfig */,
@@ -175,6 +208,7 @@
 				EB9713E617961CD20005E31E /* libAMYServer.a */,
 				EB9713FB179657410005E31E /* Test Host.app */,
 				EB971421179657770005E31E /* AMYServer Tests.octest */,
+				F3EF4B5618EF10F800F0793F /* AMYServerXCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,6 +216,7 @@
 		EB9713E817961CD20005E31E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3EF4B5018EF10C800F0793F /* XCTest.framework */,
 				EB9713E917961CD20005E31E /* Foundation.framework */,
 				EB9713FC179657410005E31E /* UIKit.framework */,
 				EB9713FF179657410005E31E /* CoreGraphics.framework */,
@@ -274,6 +309,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F3EF4B5A18EF10F800F0793F /* AMYServerXCTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3EF4B5B18EF10F800F0793F /* Supporting Files */,
+			);
+			path = AMYServerXCTests;
+			sourceTree = "<group>";
+		};
+		F3EF4B5B18EF10F800F0793F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3EF4B5C18EF10F800F0793F /* AMYServerXCTests-Info.plist */,
+				F3EF4B5D18EF10F800F0793F /* InfoPlist.strings */,
+				F3EF4B6218EF10F800F0793F /* AMYServerXCTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -334,6 +387,24 @@
 			productReference = EB971421179657770005E31E /* AMYServer Tests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		F3EF4B5518EF10F800F0793F /* AMYServerXCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EF4B6518EF10F800F0793F /* Build configuration list for PBXNativeTarget "AMYServerXCTests" */;
+			buildPhases = (
+				F3EF4B5218EF10F800F0793F /* Sources */,
+				F3EF4B5318EF10F800F0793F /* Frameworks */,
+				F3EF4B5418EF10F800F0793F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3EF4B6418EF10F800F0793F /* PBXTargetDependency */,
+			);
+			name = AMYServerXCTests;
+			productName = AMYServerXCTests;
+			productReference = F3EF4B5618EF10F800F0793F /* AMYServerXCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -342,6 +413,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Brian Nickel";
+				TargetAttributes = {
+					F3EF4B5518EF10F800F0793F = {
+						TestTargetID = EB9713FA179657410005E31E;
+					};
+				};
 			};
 			buildConfigurationList = EB9713E117961CD20005E31E /* Build configuration list for PBXProject "AMYServer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -358,6 +434,7 @@
 				EB9713E517961CD20005E31E /* AMYServer */,
 				EB9713FA179657410005E31E /* Test Host */,
 				EB971420179657770005E31E /* AMYServer Tests */,
+				F3EF4B5518EF10F800F0793F /* AMYServerXCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -389,6 +466,14 @@
 				EB3F654017A9E4D400469D18 /* bad-json.tail in Resources */,
 				EB3F654217A9E4E300469D18 /* bad-json.tail.defaults.json in Resources */,
 				EB23AA7517AB6229002B6399 /* xml.tail in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EF4B5418EF10F800F0793F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EF4B5F18EF10F800F0793F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +591,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3EF4B5218EF10F800F0793F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EF4B6C18EF112000F0793F /* AMYRequest.m in Sources */,
+				F3EF4B6D18EF112000F0793F /* _AMYURLProtocol.m in Sources */,
+				F3EF4B6E18EF112000F0793F /* _AMYMocktailResponse.m in Sources */,
+				F3EF4B6818EF111400F0793F /* ExampleServer.m in Sources */,
+				F3EF4B6918EF111400F0793F /* AMYServerTests.m in Sources */,
+				F3EF4B6A18EF111400F0793F /* AMYMocktailResponseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -513,6 +611,11 @@
 			isa = PBXTargetDependency;
 			target = EB9713FA179657410005E31E /* Test Host */;
 			targetProxy = EB971433179658250005E31E /* PBXContainerItemProxy */;
+		};
+		F3EF4B6418EF10F800F0793F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9713FA179657410005E31E /* Test Host */;
+			targetProxy = F3EF4B6318EF10F800F0793F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -537,6 +640,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				EB97142A179657770005E31E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3EF4B5D18EF10F800F0793F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3EF4B5E18EF10F800F0793F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -653,6 +764,10 @@
 			baseConfigurationReference = 11F29E78EBF54D7DB567C2F0 /* Pods-AMYServer Tests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test Host.app/Test Host";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMYServer Tests/AMYServer Tests-Prefix.pch";
 				INFOPLIST_FILE = "AMYServer Tests/AMYServer Tests-Info.plist";
@@ -667,12 +782,77 @@
 			baseConfigurationReference = 11F29E78EBF54D7DB567C2F0 /* Pods-AMYServer Tests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test Host.app/Test Host";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AMYServer Tests/AMYServer Tests-Prefix.pch";
 				INFOPLIST_FILE = "AMYServer Tests/AMYServer Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		F3EF4B6618EF10F800F0793F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test Host.app/Test Host";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMYServerXCTests/AMYServerXCTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "AMYServerXCTests/AMYServerXCTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F3EF4B6718EF10F800F0793F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test Host.app/Test Host";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMYServerXCTests/AMYServerXCTests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "AMYServerXCTests/AMYServerXCTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -714,6 +894,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F3EF4B6518EF10F800F0793F /* Build configuration list for PBXNativeTarget "AMYServerXCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EF4B6618EF10F800F0793F /* Debug */,
+				F3EF4B6718EF10F800F0793F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
